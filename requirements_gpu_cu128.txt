@@ -1,0 +1,5 @@
+# Prefer installing this file in two steps as documented in README.md.
+--index-url https://download.pytorch.org/whl/cu128
+torch
+torchvision
+torchaudio

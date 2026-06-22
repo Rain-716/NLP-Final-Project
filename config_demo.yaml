@@ -1,0 +1,20 @@
+project_name: syscode_nlp_assistant_v4_demo
+language: zh
+local_code:
+  local_model: Qwen/Qwen2.5-Coder-1.5B-Instruct
+  local_files_only: true
+  device: auto
+  max_input_tokens: 4096
+  max_new_tokens: 900
+  temperature: 0.1
+knowledge_base:
+  embedding_model: hash
+  use_chromadb: false
+  vector_db_dir: vector_db
+  collection_name: syscode_knowledge_base_v4
+  source_manifest: data/sources.yaml
+  index_manifest: vector_db/index_manifest.json
+chatecnu:
+  chatecnu_base_url: ""
+  chatecnu_model: ""
+  chatecnu_api_key_env: CHATECNU_API_KEY

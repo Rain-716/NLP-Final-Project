@@ -1,0 +1,35 @@
+project_name: syscode_nlp_assistant_v4
+language: zh
+
+local_code:
+  local_model: Qwen/Qwen2.5-Coder-1.5B-Instruct
+  local_files_only: true
+  device: auto
+  max_input_tokens: 6144
+  max_new_tokens: 1200
+  temperature: 0.15
+
+knowledge_base:
+  embedding_model: microsoft/codebert-base
+  embedding_local_files_only: true
+  use_chromadb: true
+  vector_db_dir: vector_db_v4
+  collection_name: syscode_knowledge_base_v4
+  source_manifest: data/sources.yaml
+  index_manifest: vector_db_v4/index_manifest.json
+  max_chunk_chars: 1200
+  chunk_overlap: 160
+  top_k_candidates: 12
+  top_k_evidence: 5
+  vector_weight: 0.58
+  bm25_weight: 0.34
+  term_weight: 0.08
+
+chatecnu:
+  chatecnu_base_url: "https://chat.ecnu.edu.cn/open/api/v1"
+  chatecnu_model: "ChatECNU"
+  chatecnu_api_key_env: CHATECNU_API_KEY
+  chatecnu_timeout_seconds: 45
+  chatecnu_retries: 2
+  chatecnu_temperature: 0.15
+  chatecnu_cache_dir: .cache/chatecnu

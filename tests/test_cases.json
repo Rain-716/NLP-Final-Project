@@ -1,0 +1,7 @@
+[
+  {"name":"本地代码解析-寄存器位","type":"explain","code":"#include <bitset>\nstruct CSR { std::bitset<32> value; bool enabled() const { return value[3]; } };"},
+  {"name":"本地代码问答-RAW","type":"qa","question":"代码如何判断 RAW 相关性？","code":"bool raw(int rd,int rs1,int rs2){ return rd != 0 && (rd == rs1 || rd == rs2); }"},
+  {"name":"本地中文注释","type":"comment","code":"uint32_t opcode(uint32_t inst){ return inst & 0x7f; }"},
+  {"name":"知识问答-Cache","type":"knowledge","question":"Cache 地址如何拆分 tag index offset？","code":""},
+  {"name":"术语解释-forwarding","type":"term","question":"forwarding 和 stall 的区别","code":""}
+]

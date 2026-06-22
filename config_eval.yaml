@@ -1,0 +1,26 @@
+project_name: syscode_nlp_assistant_v4_eval
+language: zh
+local_code:
+  local_model: Qwen/Qwen2.5-Coder-1.5B-Instruct
+  local_files_only: true
+  device: cpu
+  max_input_tokens: 2048
+  max_new_tokens: 512
+  temperature: 0.0
+knowledge_base:
+  embedding_model: hash
+  embedding_local_files_only: true
+  use_chromadb: false
+  vector_db_dir: vector_db_eval
+  collection_name: syscode_knowledge_eval_v4
+  source_manifest: data/sources.yaml
+  index_manifest: vector_db_eval/index_manifest.json
+  max_chunk_chars: 1200
+  chunk_overlap: 160
+  top_k_candidates: 10
+  top_k_evidence: 5
+chatecnu:
+  chatecnu_base_url: ""
+  chatecnu_model: ""
+  chatecnu_api_key_env: CHATECNU_API_KEY
+  chatecnu_retries: 0

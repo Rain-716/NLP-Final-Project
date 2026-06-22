@@ -1,0 +1,45 @@
+sources:
+  - id: local-system-terms
+    path: docs/system_terms.md
+    title: 底层系统核心术语
+    version: "4.0"
+    license: project-authored
+    updated_at: "2026-06-22"
+  - id: local-riscv-notes
+    path: docs/riscv_extended_manual.md
+    title: RISC-V 指令格式学习笔记
+    version: "4.0"
+    url: https://riscv.org/technical/specifications/
+    license: project-authored-summary
+    updated_at: "2026-06-22"
+  - id: local-pipeline-notes
+    path: docs/pipeline_extended_manual.md
+    title: 五级流水线学习笔记
+    version: "4.0"
+    license: project-authored
+    updated_at: "2026-06-22"
+  - id: local-cache-notes
+    path: docs/cache_extended_manual.md
+    title: Cache 与存储层次学习笔记
+    version: "4.0"
+    license: project-authored
+    updated_at: "2026-06-22"
+  - id: local-architecture-notes
+    path: docs/computer_arch_manual.md
+    title: 计算机体系结构学习笔记
+    version: "4.0"
+    license: project-authored
+    updated_at: "2026-06-22"
+  - id: local-cpp-notes
+    path: docs/system_cpp_extended_notes.md
+    title: 系统级 C++ 学习笔记
+    version: "4.0"
+    url: https://en.cppreference.com/
+    license: project-authored-summary
+    updated_at: "2026-06-22"
+  - id: project-code-examples
+    path: code_examples
+    title: 项目 C++ 示例代码
+    version: "4.0"
+    license: project-authored
+    updated_at: "2026-06-22"

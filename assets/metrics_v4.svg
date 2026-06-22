@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+ <rect width="1400" height="760" fill="#f8fafc"/><style>.h{font:700 31px 'Microsoft YaHei',sans-serif;fill:#15324b}.n{font:700 56px 'Microsoft YaHei',sans-serif;fill:#2e718f}.t{font:20px 'Microsoft YaHei',sans-serif;fill:#344955}.s{font:17px 'Microsoft YaHei',sans-serif;fill:#61717c}</style>
+ <text x="700" y="70" text-anchor="middle" class="h">真实执行结果：检索质量与架构测试分开报告</text>
+ <g transform="translate(80,130)"><rect width="280" height="180" rx="20" fill="#e8f3f8"/><text x="140" y="82" text-anchor="middle" class="n">1.000</text><text x="140" y="125" text-anchor="middle" class="t">Recall@5</text></g>
+ <g transform="translate(400,130)"><rect width="280" height="180" rx="20" fill="#e8f3f8"/><text x="140" y="82" text-anchor="middle" class="n">1.000</text><text x="140" y="125" text-anchor="middle" class="t">MRR</text></g>
+ <g transform="translate(720,130)"><rect width="280" height="180" rx="20" fill="#f2eef9"/><text x="140" y="82" text-anchor="middle" class="n">0.968</text><text x="140" y="125" text-anchor="middle" class="t">nDCG@5</text></g>
+ <g transform="translate(1040,130)"><rect width="280" height="180" rx="20" fill="#f2eef9"/><text x="140" y="82" text-anchor="middle" class="n">100%</text><text x="140" y="125" text-anchor="middle" class="t">领域外拒答</text></g>
+ <rect x="80" y="365" width="1240" height="245" rx="20" fill="white" stroke="#cad8e1" stroke-width="2"/><text x="125" y="420" class="h">自动化测试：8 / 8</text><text x="125" y="470" class="t">覆盖模型隔离 · 环境密钥 · OpenAI 兼容请求 · 重试 · 引用校验 · API 降级 · 增量索引</text><text x="125" y="525" class="t">生成质量未虚构：真实本地模型缓存和 ChatECNU 参数仍需在用户环境完成联调</text><text x="125" y="575" class="s">Mock API 验证协议与控制流，不等价于真实模型答案质量。</text>
+</svg>

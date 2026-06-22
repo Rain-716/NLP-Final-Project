@@ -1,0 +1,28 @@
+{
+  "files_seen": 17,
+  "files_indexed": 17,
+  "chunks_created": 125,
+  "duplicates_removed": 8,
+  "failures": [],
+  "sources": {
+    "code_examples/advanced_system_cases.cpp": 15,
+    "code_examples/bitset_register.cpp": 4,
+    "code_examples/cache_lru.cpp": 3,
+    "code_examples/cache_sim.cpp": 2,
+    "code_examples/pipeline.cpp": 3,
+    "code_examples/pipeline_hazard.cpp": 4,
+    "code_examples/quicksort.cpp": 2,
+    "code_examples/riscv_decode.cpp": 3,
+    "local-cache-notes": 15,
+    "docs/cache_manual.md": 7,
+    "local-architecture-notes": 9,
+    "local-pipeline-notes": 12,
+    "docs/rag_design.md": 8,
+    "local-riscv-notes": 10,
+    "local-cpp-notes": 12,
+    "docs/system_cpp_notes.md": 5,
+    "local-system-terms": 11
+  },
+  "index_version": "20260622-c9a8deafb99b",
+  "embedding_backend": "hash"
+}

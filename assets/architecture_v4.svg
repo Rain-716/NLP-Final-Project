@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+  <rect width="1400" height="760" fill="#f7fafc"/>
+  <style>.t{font:700 32px 'Microsoft YaHei',sans-serif;fill:#15324b}.h{font:700 23px 'Microsoft YaHei',sans-serif;fill:white}.b{font:18px 'Microsoft YaHei',sans-serif;fill:#263746}.box{rx:20;stroke-width:2}.arrow{stroke:#517b96;stroke-width:4;fill:none;marker-end:url(#a)}</style>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#517b96"/></marker></defs>
+  <text x="700" y="60" text-anchor="middle" class="t">双模型、双链路架构</text>
+  <rect x="80" y="115" width="1240" height="85" class="box" fill="#163f5b"/><text x="700" y="168" text-anchor="middle" class="h">Gradio 交互层：代码解析 · 代码问答 · 中文注释 · 知识问答 · 术语解释</text>
+  <path d="M430 200 L430 260" class="arrow"/><path d="M970 200 L970 260" class="arrow"/>
+  <rect x="80" y="265" width="610" height="390" class="box" fill="#e8f3f8" stroke="#2e718f"/>
+  <text x="385" y="315" text-anchor="middle" class="t">本地代码链路</text>
+  <rect x="145" y="350" width="480" height="75" class="box" fill="#2e718f"/><text x="385" y="397" text-anchor="middle" class="h">代码校验与结构提取</text>
+  <path d="M385 425 L385 470" class="arrow"/>
+  <rect x="145" y="475" width="480" height="105" class="box" fill="#2e718f"/><text x="385" y="520" text-anchor="middle" class="h">本地 Qwen2.5-Coder</text><text x="385" y="552" text-anchor="middle" class="b">local_files_only · 无规则伪回退</text>
+  <rect x="710" y="265" width="610" height="390" class="box" fill="#f2eef9" stroke="#6c5b9b"/>
+  <text x="1015" y="315" text-anchor="middle" class="t">知识增强链路</text>
+  <rect x="765" y="350" width="230" height="105" class="box" fill="#6c5b9b"/><text x="880" y="393" text-anchor="middle" class="h">本地知识库</text><text x="880" y="426" text-anchor="middle" class="b">向量 + BM25</text>
+  <path d="M995 402 L1040 402" class="arrow"/>
+  <rect x="1045" y="350" width="220" height="105" class="box" fill="#6c5b9b"/><text x="1155" y="393" text-anchor="middle" class="h">ChatECNU</text><text x="1155" y="426" text-anchor="middle" class="b">重排与生成</text>
+  <path d="M1155 455 L1155 500 L1015 500" class="arrow"/>
+  <rect x="765" y="505" width="500" height="75" class="box" fill="#6c5b9b"/><text x="1015" y="552" text-anchor="middle" class="h">引用校验 · 透明降级 · 证据展示</text>
+  <text x="700" y="718" text-anchor="middle" class="b">安全边界：代码链路不调用 API；知识链路不调用本地生成模型；密钥仅来自环境变量</text>
+</svg>
